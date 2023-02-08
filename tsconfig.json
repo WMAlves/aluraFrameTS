@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir":"dist/js", //define onde os arquios JS sejam salvos
+        "target": "ES6", //define o ecamscript a ser usado
+        "noEmitOnError": true
+
+    },
+    "include": [
+        "app/**/*" //origem dos arquivos que serão lidos pelo compilador
+    ]
+}
