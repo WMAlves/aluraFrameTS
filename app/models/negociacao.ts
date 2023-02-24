@@ -26,5 +26,4 @@ export class Negociacao{
         return this._quantidade*this.valor;
     }
 
-   
 }
