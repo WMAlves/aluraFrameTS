@@ -27,8 +27,7 @@ export class NegociacaoController {
         const expressRegul = /-/g;
         const date = new Date(this.inputData.value.replace(expressRegul, ','));
         const quantidade = parseInt(this.inputQuantidade.value);
-        const valor = parseFloat(this.inputValor.value);
-        
+        const valor = parseFloat(this.inputValor.value);        
         return new Negociacao(date, quantidade, valor);
 
     }
