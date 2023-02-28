@@ -35,8 +35,8 @@ export class NegociacaoController {
 
     limparFormulário(): void {
         this.inputData.value = '';
-        this.inputQuantidade.value = '';
-        this.inputValor.value = '';
+        this.inputQuantidade.value = '1';
+        this.inputValor.value = '0.0';
         this.inputData.focus();
 
     }
