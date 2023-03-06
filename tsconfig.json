@@ -6,8 +6,6 @@
         "noImplicitAny": true
 
     },
-    "include": [
-        "app/**/*" //origem dos arquivos que serão lidos pelo compilador
-    ]
+    "include": ["app/**/*"] //origem dos arquivos que serão lidos pelo compilador
 }
 
