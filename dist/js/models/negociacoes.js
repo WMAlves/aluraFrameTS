@@ -1,9 +1,9 @@
 export class Negociacoes {
     constructor() {
-        this.negociacoes = []; //informa array da classe negociação, outra forma de fazer isso é: "private negociacoes: Negociacao[]"
+        this.negociacoes = [];
     }
     adiciona(negociacao) {
-        this.negociacoes.push(negociacao); //aqui está adicionando as negociações na lista.
+        this.negociacoes.push(negociacao);
     }
     lista() {
         return this.negociacoes;
